@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk
+FROM eclipse-termurin:11-jdk
 WORKDIR /app
 COPY . .
 RUN javac samplename.java
